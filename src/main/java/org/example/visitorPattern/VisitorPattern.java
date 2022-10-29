@@ -8,14 +8,14 @@ import org.example.visitorPattern.visitor.imp.StudentVisitor;
 public class VisitorPattern {
     public static void main(String[] args) {
         Zoo zoo =  new Zoo();
-        // 添加
+        // 添加两种场馆
         zoo.add(new LeopardSpot());
         zoo.add(new DolphinSpot());
 
-        //接待学生访问者
+        // 场馆接待学生访问者 每个场馆都需要单独接待访问者
         zoo.accept(new StudentVisitor());
 
-        // 接待普通访问者
+        // 场馆接待普通访问者
         zoo.accept(new CommonVisitor());
     }
 }
