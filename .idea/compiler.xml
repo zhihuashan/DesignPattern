@@ -2,20 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-<<<<<<< HEAD
-=======
       <profile default="true" name="Default" enabled="true" />
->>>>>>> e075c8c (新建java design Pattern)
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-        <module name="designMode" />
-=======
         <module name="DesignPattern" />
->>>>>>> e075c8c (新建java design Pattern)
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DesignPattern" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
