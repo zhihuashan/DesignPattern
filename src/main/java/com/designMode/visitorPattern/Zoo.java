@@ -1,7 +1,7 @@
-package org.example.visitorPattern;
+package com.designMode.visitorPattern;
 
-import org.example.visitorPattern.ScenerySpot.ScenerySpot;
-import org.example.visitorPattern.visitor.Visitor;
+import com.designMode.visitorPattern.ScenerySpot.ScenerySpot;
+import com.designMode.visitorPattern.visitor.Visitor;
 
 import java.util.ArrayList;
 import java.util.List;

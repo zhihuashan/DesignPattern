@@ -1,6 +1,6 @@
-package org.example.visitorPattern.ScenerySpot;
+package com.designMode.visitorPattern.ScenerySpot;
 
-import org.example.visitorPattern.visitor.Visitor;
+import com.designMode.visitorPattern.visitor.Visitor;
 
 // 抽象元素：场馆景点
 public interface ScenerySpot {

@@ -1,8 +1,8 @@
-package org.example.visitorPattern.visitor.imp;
+package com.designMode.visitorPattern.visitor.imp;
 
-import org.example.visitorPattern.ScenerySpot.imp.DolphinSpot;
-import org.example.visitorPattern.ScenerySpot.imp.LeopardSpot;
-import org.example.visitorPattern.visitor.Visitor;
+import com.designMode.visitorPattern.ScenerySpot.imp.DolphinSpot;
+import com.designMode.visitorPattern.ScenerySpot.imp.LeopardSpot;
+import com.designMode.visitorPattern.visitor.Visitor;
 
 public class StudentVisitor implements Visitor {
     @Override

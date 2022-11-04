@@ -1,7 +1,7 @@
-package org.example.visitorPattern.ScenerySpot.imp;
+package com.designMode.visitorPattern.ScenerySpot.imp;
 
-import org.example.visitorPattern.ScenerySpot.ScenerySpot;
-import org.example.visitorPattern.visitor.Visitor;
+import com.designMode.visitorPattern.ScenerySpot.ScenerySpot;
+import com.designMode.visitorPattern.visitor.Visitor;
 
 // 具体元素
 public class LeopardSpot implements ScenerySpot {

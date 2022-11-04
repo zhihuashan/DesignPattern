@@ -13,7 +13,8 @@ public class Demo2 {
     public Demo2() {
         System.out.println("私有Demo2构造参数初始化");
     }
-
+    // synchronized进行同步保证多线下数据的实例不唯一的问题。
+    // 但将大大降低性能
     public synchronized static Demo2 getInstance(){
         if(demo2 == null){
             demo2 = new Demo2();

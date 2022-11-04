@@ -1,9 +1,9 @@
-package org.example.visitorPattern;
+package com.designMode.visitorPattern;
 
-import org.example.visitorPattern.ScenerySpot.imp.DolphinSpot;
-import org.example.visitorPattern.ScenerySpot.imp.LeopardSpot;
-import org.example.visitorPattern.visitor.imp.CommonVisitor;
-import org.example.visitorPattern.visitor.imp.StudentVisitor;
+import com.designMode.visitorPattern.ScenerySpot.imp.DolphinSpot;
+import com.designMode.visitorPattern.ScenerySpot.imp.LeopardSpot;
+import com.designMode.visitorPattern.visitor.imp.CommonVisitor;
+import com.designMode.visitorPattern.visitor.imp.StudentVisitor;
 
 public class VisitorPattern {
     public static void main(String[] args) {

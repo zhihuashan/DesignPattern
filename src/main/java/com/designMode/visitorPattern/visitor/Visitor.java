@@ -1,7 +1,7 @@
-package org.example.visitorPattern.visitor;
+package com.designMode.visitorPattern.visitor;
 
-import org.example.visitorPattern.ScenerySpot.imp.DolphinSpot;
-import org.example.visitorPattern.ScenerySpot.imp.LeopardSpot;
+import com.designMode.visitorPattern.ScenerySpot.imp.DolphinSpot;
+import com.designMode.visitorPattern.ScenerySpot.imp.LeopardSpot;
 
 // 抽象游客
 public interface Visitor {
