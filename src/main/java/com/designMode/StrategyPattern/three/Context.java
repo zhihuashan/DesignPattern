@@ -1,4 +1,4 @@
-package com.designMode.PolicyMode;
+package com.designMode.StrategyPattern.three;
 
 /**
  * @Author: shanzhihua
