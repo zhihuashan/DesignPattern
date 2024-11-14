@@ -4,6 +4,9 @@ import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * 在获取到输入之后将流之后将流中的字符转为小写。
+ */
 public class LowerCaseInputStream extends FilterInputStream {
     /**
      * Creates a <code>FilterInputStream</code>
