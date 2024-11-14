@@ -1,4 +1,4 @@
-package com.designMode.ObserverMode.SchoolBell;
+package com.designMode.ObserverPattern.SchoolBell;
 /**
  * @Author: shanzhihua
  * @Date: 2022/6/23 15:43

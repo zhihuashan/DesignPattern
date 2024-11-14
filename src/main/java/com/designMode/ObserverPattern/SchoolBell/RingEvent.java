@@ -1,4 +1,4 @@
-package com.designMode.ObserverMode.SchoolBell;
+package com.designMode.ObserverPattern.SchoolBell;
 
 import java.util.EventObject;
 

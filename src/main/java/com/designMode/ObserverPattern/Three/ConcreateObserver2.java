@@ -1,4 +1,4 @@
-package com.designMode.ObserverMode;
+package com.designMode.ObserverPattern.Three;
 
 /**
  * @Author: shanzhihua

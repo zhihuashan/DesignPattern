@@ -1,4 +1,4 @@
-package com.designMode.ObserverMode;
+package com.designMode.ObserverPattern.Three;
 
 import java.util.ArrayList;
 import java.util.List;
