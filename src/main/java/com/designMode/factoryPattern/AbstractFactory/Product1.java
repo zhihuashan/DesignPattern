@@ -1,4 +1,4 @@
-package com.designMode.FactoryMode.AbstractFactory;
+package com.designMode.factoryPattern.AbstractFactory;
 
 /**
  * @Author: shanzhihua
@@ -6,6 +6,6 @@ package com.designMode.FactoryMode.AbstractFactory;
  * @Version 1.0
  */
 // 抽象产品:提供了产品的接口
-public interface Product2 {
+public interface Product1 {
     public void show();
 }

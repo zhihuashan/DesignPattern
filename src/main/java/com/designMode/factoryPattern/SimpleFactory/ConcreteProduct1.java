@@ -1,4 +1,4 @@
-package com.designMode.FactoryMode.SimpleFactory;
+package com.designMode.factoryPattern.SimpleFactory;
 
 /**
  * @Author: shanzhihua

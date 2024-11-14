@@ -1,4 +1,4 @@
-package com.designMode.FactoryMode.FactoryMethod;
+package com.designMode.factoryPattern.FactoryMethod;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;

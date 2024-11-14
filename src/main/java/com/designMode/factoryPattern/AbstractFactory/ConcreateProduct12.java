@@ -1,4 +1,4 @@
-package com.designMode.FactoryMode.AbstractFactory;
+package com.designMode.factoryPattern.AbstractFactory;
 
 /**
  * @Author: shanzhihua

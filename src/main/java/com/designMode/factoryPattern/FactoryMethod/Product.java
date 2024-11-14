@@ -1,11 +1,11 @@
-package com.designMode.FactoryMode.AbstractFactory;
+package com.designMode.factoryPattern.FactoryMethod;
 
 /**
  * @Author: shanzhihua
- * @Date: 2022/6/27 13:31
+ * @Date: 2022/6/27 10:41
  * @Version 1.0
  */
 // 抽象产品:提供了产品的接口
-public interface Product1 {
+public interface Product {
     public void show();
 }
