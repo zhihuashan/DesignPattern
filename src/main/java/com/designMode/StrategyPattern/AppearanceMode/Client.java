@@ -1,4 +1,4 @@
-package com.designMode.AppearanceMode;
+package com.designMode.StrategyPattern.AppearanceMode;
 
 /**
  * @Author: shanzhihua
@@ -9,9 +9,9 @@ package com.designMode.AppearanceMode;
 public class Client {
     public static void main(String[] args) {
         //普通模式需要这样
-        AliSmsService aliSmsService= new AliSmsServiceImpl();
-        EamilSmsService eamilSmsService= new EamilSmsServiceImpl();
-        WeiXinSmsService weiXinSmsService = new WeiXinSmsServiceImpl();
+        SmsService aliSmsService= new AliSmsServiceImpl();
+        SmsService eamilSmsService= new EamilSmsServiceImpl();
+        SmsService weiXinSmsService = new WeiXinSmsServiceImpl();
         aliSmsService.sendSms();
         eamilSmsService.sendSms();
         weiXinSmsService.sendSms();

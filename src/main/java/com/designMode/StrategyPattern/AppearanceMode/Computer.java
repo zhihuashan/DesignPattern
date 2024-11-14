@@ -1,4 +1,4 @@
-package com.designMode.AppearanceMode;
+package com.designMode.StrategyPattern.AppearanceMode;
 
 /**
  * @Author: shanzhihua
@@ -7,9 +7,9 @@ package com.designMode.AppearanceMode;
  */
 
 public class Computer {
-    AliSmsService aliSmsService;
-    EamilSmsService eamilSmsService;
-    WeiXinSmsService weiXinSmsService;
+    SmsService aliSmsService;
+    SmsService eamilSmsService;
+    SmsService weiXinSmsService;
 
     public Computer(){
         aliSmsService = new AliSmsServiceImpl();

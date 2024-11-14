@@ -1,4 +1,4 @@
-package com.designMode.AppearanceMode;
+package com.designMode.StrategyPattern.AppearanceMode;
 
 /**
  * @Author: shanzhihua
@@ -6,7 +6,7 @@ package com.designMode.AppearanceMode;
  * @Version 1.0
  */
 
-public class AliSmsServiceImpl implements AliSmsService{
+public class AliSmsServiceImpl implements SmsService{
     @Override
     public void sendSms() {
         System.out.println("阿里短信消息");
